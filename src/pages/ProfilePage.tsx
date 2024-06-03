@@ -6,6 +6,7 @@ export default function ProfilePage() {
   return (
     <div>
       <h2>Profile Page {params.profileId}</h2>
+      <p>test</p>
     </div>
   );
 }

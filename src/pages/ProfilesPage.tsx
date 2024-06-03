@@ -3,7 +3,7 @@ import { NavLink, Outlet } from "react-router-dom";
 // outlet is for render the chil router
 
 export default function ProfilesPage() {
-  const profiles = [1, 2, 3, 4, 5];
+  const profiles = ['Active', 'Remote', 'Model', 'Details', 'About'];
 
   return (
     <div className="flex flex-row gap-2">
@@ -16,7 +16,7 @@ export default function ProfilesPage() {
               return isActive ? 'text-sky-500' : '';
             }} 
           >
-            Profile {profile}
+            {profile}
           </NavLink>
         ))}
       </div>
