@@ -13,7 +13,7 @@ export default function ProfilesPage() {
             key={profile} 
             to={`/profiles/${profile}`}
             className={({ isActive }) => {
-              return isActive ? 'text-primary-500' : '';
+              return isActive ? 'text-sky-500' : '';
             }} 
           >
             Profile {profile}
